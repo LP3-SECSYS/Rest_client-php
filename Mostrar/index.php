@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <?php
 /*
-//next example will recieve all messages for specific conversation
+//Petición para recibir lista de usuarios
 $service_url = 'http://192.168.1.52:3000/api/categoria';
 $curl = curl_init($service_url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
